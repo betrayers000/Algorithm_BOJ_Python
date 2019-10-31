@@ -66,7 +66,6 @@ def change():
                 cnt+= 1
                 temp.append((i, j))
     avg = total/cnt
-    print(avg)
     for val in temp:
         i, j = val
         if board[i][j] > avg:
@@ -81,21 +80,18 @@ command = [list(map(int, input().split())) for _ in range(T)]
 # print(board)
 for j in range(T):
     x, d, k = command[j]
-    print(x, d, k)
     for i in range(1, N+1):
         if i % x == 0:
-            print(i)
             board[i-1] = cycle(d, board[i-1], k)
-    print(board)
+    # print(board)
     visited = [[0] * M for _ in range(N)]
     ans = delete_line()
-    print(board)
-    print(ans)
+    # print(ans)
     if not ans:
         change()
-print(board)
+#     print(board)
+# print(board)
 total = 0
 for i in range(N):
     total += sum(board[i])
-
 print(total)
