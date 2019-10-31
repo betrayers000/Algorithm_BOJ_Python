@@ -125,5 +125,5 @@ ENV/
 env.bak/
 venv.bak/
 pip-selfcheck.json
-
+.input.txt
 # End of https://www.gitignore.io/api/venv,python

@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f298c30d-dfe0-4c2e-9a2d-7dc438d744ea" name="Default" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/1966.py" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/17822.py" afterDir="false" />
+>>>>>>> 7bc4766a54146afadd5c655041e87fec2136b4cf
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,6 +15,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
   <component name="FUSProjectUsageTrigger">
     <session id="-502849065">
       <usages-collector id="statistics.lifecycle.project">
@@ -84,6 +89,8 @@
       </file>
     </leaf>
   </component>
+=======
+>>>>>>> 7bc4766a54146afadd5c655041e87fec2136b4cf
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -94,6 +101,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< HEAD
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -131,7 +139,11 @@
       <pane id="Scope" />
     </panes>
   </component>
+=======
+  <component name="ProjectId" id="1Sv78BHIEAUFMSHnLFp4We8C6gP" />
+>>>>>>> 7bc4766a54146afadd5c655041e87fec2136b4cf
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -159,7 +171,33 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Python.1966">
+    <configuration name="11866" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+  <component name="RunManager" selected="Python.17822">
+    <configuration name="1021" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> 7bc4766a54146afadd5c655041e87fec2136b4cf
+      <module name="BOJ" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1021.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="11866" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="BOJ" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -181,7 +219,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="17298" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="17822" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="BOJ" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -193,7 +231,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/17298.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/17822.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -202,28 +240,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="1874" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="BOJ" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1874.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+<<<<<<< HEAD
     <configuration name="1966" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration name="1874" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> 7bc4766a54146afadd5c655041e87fec2136b4cf
       <module name="BOJ" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -235,7 +256,11 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1966.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1874.py" />
+>>>>>>> 7bc4766a54146afadd5c655041e87fec2136b4cf
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -266,6 +291,7 @@
       <method v="2" />
     </configuration>
     <list>
+<<<<<<< HEAD
       <item itemvalue="Python.17298" />
       <item itemvalue="Python.1874" />
       <item itemvalue="Python.2164" />
@@ -279,6 +305,21 @@
         <item itemvalue="Python.2164" />
         <item itemvalue="Python.1874" />
         <item itemvalue="Python.17298" />
+=======
+      <item itemvalue="Python.1874" />
+      <item itemvalue="Python.2164" />
+      <item itemvalue="Python.11866" />
+      <item itemvalue="Python.1021" />
+      <item itemvalue="Python.17822" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.17822" />
+        <item itemvalue="Python.1021" />
+        <item itemvalue="Python.11866" />
+        <item itemvalue="Python.2164" />
+        <item itemvalue="Python.1874" />
+>>>>>>> 7bc4766a54146afadd5c655041e87fec2136b4cf
       </list>
     </recent_temporary>
   </component>
@@ -295,6 +336,7 @@
     </task>
     <servers />
   </component>
+<<<<<<< HEAD
   <component name="ToolWindowManager">
     <frame x="1096" y="0" width="831" height="1047" extended-state="0" />
     <layout>
@@ -377,5 +419,17 @@
         </state>
       </provider>
     </entry>
+=======
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+>>>>>>> 7bc4766a54146afadd5c655041e87fec2136b4cf
   </component>
 </project>
