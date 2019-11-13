@@ -27,7 +27,6 @@ def f(i, j):
         x, y = t
         country[x][y] = total // len(temp)
     return True
-
 N, L, R = map(int, input().split())
 country = [list(map(int, input().split())) for _ in range(N)]
 tn = 0
