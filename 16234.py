@@ -21,19 +21,17 @@ def f(i, j):
                 if L <= abs(country[x][y] - country[nx][ny]) <= R:
                     s.append((nx, ny))
                     temp_visit[nx][ny] = 1
-    # print(temp)
     if len(temp) == 1:
         return False
     for t in temp:
         x, y = t
-        print(country[x][y], total//len(temp))
         country[x][y] = total // len(temp)
-    print(temp)
     return True
+
 N, L, R = map(int, input().split())
 country = [list(map(int, input().split())) for _ in range(N)]
 tn = 0
-while tn < 5:
+while tn < 2000:
     temp = 0
     temp_visit = [[0] * N for _ in range(N)]
     for i in range(N):
