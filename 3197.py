@@ -1,6 +1,7 @@
 import sys
-
 sys.stdin = open('input.txt', 'r')
+
+from collections import deque
 
 dx = [0, 1, 0, -1]
 dy = [1, 0, -1, 0]
@@ -38,18 +39,21 @@ def f(n, k):
 
 def find(n):
     global R, C
-    q = [0] * (R * C)
+    q = deque()
     visited = [[0] * C for _ in range(R)]
-    front, rear = -1, -1
+    # front, rear = -1, -1
     check = set()
     for s in swan:
-        rear += 1
-        q[rear] = s
+        # rear += 1
+        # q[rear] = s
+        q.append(s)
     visited[swan[0][0]][swan[0][1]] = 1
     visited[swan[1][0]][swan[1][1]] = 2
-    while front != rear:
-        front += 1
-        x, y = q[front]
+    # while front != rear:
+    while q:
+        # front += 1
+        # x, y = q[front]
+        x, y = q.popleft()
         for k in range(4):
             nx, ny = x +dx[k], y+dy[k]
             if 0 <= nx < R and 0 <= ny < C and times[nx][ny] <= n and times[nx][ny] != 0:
@@ -60,8 +64,9 @@ def find(n):
                         res.append(n)
                         return True
                     visited[nx][ny] = visited[x][y]
-                    rear += 1
-                    q[rear] = (nx, ny)
+                    # rear += 1
+                    # q[rear] = (nx, ny)
+                    q.append((nx, ny))
     return False
 
 
