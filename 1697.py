@@ -22,12 +22,12 @@ def bfs():
             else:
                 nx = n + d[i]
             if 0 <= nx <= 100000 and visited[nx] == 0:
-                # print(n, nx, visited[n])
                 r += 1
                 q[r] = nx
                 visited[nx] = visited[n] + 1
                 if nx == K:
                     return visited[nx] - 1
+    return 0
 
 
 N, K = map(int, input().split())
