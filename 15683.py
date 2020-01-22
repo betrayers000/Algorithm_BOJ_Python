@@ -124,11 +124,7 @@ board = [list(map(int, input().split())) for _ in range(N)]
 cctv = []
 blank = 0
 info = {}
-maps = [[[] for _ in range(M)] for _ in range(N)]
-for i in range(N):
-    for j in range(M):
-        for k in range(4):
-            maps[i][j].append(set())
+maps = [[[set(),set(),set(),set()] for _ in range(M)] for _ in range(N)]
 for i in range(N):
     for j in range(M):
         if 0< board[i][j] < 6:

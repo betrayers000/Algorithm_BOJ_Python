@@ -5,12 +5,14 @@ dx = [0, -1, 1, 0, 0]
 dy = [0, 0, 0, 1, -1]
 back = [0, 2, 1, 4, 3]
 
+# 상어의 위치를 한번에 계산
+# 1 위 2아래 3 오른쪽 4 왼쪽
+
 # 딕셔너리 이용한 풀이 pypy 통과하지만 python 시간초과
 def moving(key, val):
     global R, C
     x, y = key
     s, d, z, = val[0]
-    ox, oy = x, y
     for i in range(s):
         x , y = x + dx[d], y + dy[d]
         if 0<= x < R and 0<= y < C:
